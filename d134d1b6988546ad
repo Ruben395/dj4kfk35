@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Style Preview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #302f2f;
+            color: white;
+            flex-direction: column;
+        }
+        .pdf-preview {
+            width: 90%;
+            max-width: 600px;
+            background: #302f2f;
+            border: 1px solid #302f2f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        .message {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 7px 20px;
+            font-size: 17px;
+            color: #fff;
+            background-color: #0078d4;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #005ea6;
+        }
+        .gif-container {
+            position: absolute;
+            top: 210px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="gif-container">
+        <img src="https://cdn3.iconfinder.com/data/icons/file-and-folders/32/file_doc_fail_error_mistake_ban_forbidden-512.png" width="40" height="40">
+    </div>
+    <div class="pdf-preview">
+        <p class="message">Preview failed to load. Open the file in SharePoint to access it.</p>
+        
+        <a href="https://semi-zcmp.maillist-manage.com/click/1134d1b6988546e97/1134d1b6988546adf" class="button" rel="noopener noreferrer">Open</a>
+    </div>
+</body>
+</html>
